@@ -17,7 +17,7 @@ Run: `git submodule update --init --recursive` to clone submodules.
 Then build project using the provided makefile in Windows Subsystem for Linux
 and inject resulting DLL.
 
-The compiler used for this project is `tcc`.
+The compiler used for this project is [tcc](https://github.com/lunarjournal/tcc).
 
 Note: You can modify and reload GSC scripts while Black Ops is running by quiting
 the level and starting it again.
