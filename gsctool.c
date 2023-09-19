@@ -45,7 +45,9 @@ uint8_t entry_file[SIZE_PATH];
 int func_handle = 0;
 
 /* Strip extension from name */
-void strip_ext(uint8_t* fname)
+void strip_ext(
+	uint8_t* fname
+)
 {
 	uint8_t* end = fname + strlen(fname);
 
@@ -61,21 +63,28 @@ void strip_ext(uint8_t* fname)
 }
 
 /* Print banner */
-void print_banner()
+void print_banner(
+	void
+)
 {
 	printf("[info] gsctool init\n");
 	printf("[info] gsc dumper and loader\n");
 }
 
 /* Print mod info (config.ini) */
-void print_mod_info(uint8_t* dir, uint8_t* entry)
+void print_mod_info(
+	uint8_t* dir,
+	uint8_t* entry
+)
 {
 	printf("mod.dir=%s\n", dir);
 	printf("mod.entry=%s\n", entry);
 }
 
 /* Print example config.ini */
-void print_mod_example()
+void print_mod_example(
+	void
+)
 {
 	printf("example config.ini:\n");
 	printf("mod.dir=example\n");
@@ -83,7 +92,9 @@ void print_mod_example()
 }
 
 /* Check if file exists */
-BOOL FileExists(LPCSTR szPath)
+BOOL FileExists(
+	LPCSTR szPath
+)
 {
 	DWORD attrib = GetFileAttributesA(szPath);
 	return (attrib != INVALID_FILE_ATTRIBUTES
@@ -91,7 +102,9 @@ BOOL FileExists(LPCSTR szPath)
 }
 
 /* Check if directory */
-BOOL DirectoryExists(LPCSTR szPath)
+BOOL DirectoryExists(
+	LPCSTR szPath
+)
 {
 	DWORD attrib = GetFileAttributesA(szPath);
 	return (attrib != INVALID_FILE_ATTRIBUTES
@@ -259,7 +272,9 @@ int32_t __cdecl Scr_LoadScript_hk(
 }
 
 /* Execute function handle at correct timing */
-void __cdecl Scr_LoadGameType_hk()
+void __cdecl Scr_LoadGameType_hk(
+	void
+)
 {
 	Scr_LoadGameType();
 	uint8_t* mapname = Dvar_FindVar("mapname");
@@ -278,7 +293,9 @@ void __cdecl Scr_LoadGameType_hk()
 }
 
 /* Recursively make directory */
-void __cdecl mkdir_recursive(uint8_t* path)
+void __cdecl mkdir_recursive(
+	uint8_t* path
+)
 {
 	int i = 0x0;
 	uint8_t* buffer = NULL;
@@ -377,7 +394,9 @@ XAssetEntryPoolEntry* __cdecl DB_LinkXAssetEntry_hk(
 }
 
 /* Main thread to execute once injected. */
-DWORD WINAPI init_thread(LPVOID lpParam)
+DWORD WINAPI init_thread(
+	LPVOID lpParam
+)
 {
 	FILE* dependency_list = NULL;
 	FILE* config_file = NULL;
