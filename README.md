@@ -28,6 +28,6 @@ the level and starting it again.
 
 # Libraries
 
-* [cdl86](https://github.com/lunarjournal/cdl86) single file detour library
+* [cdl86](https://github.com/lunarjournal/cdl86) single c file detour library
 * [miniz](https://github.com/lunarjournal/miniz) zlib library
 
