@@ -26,7 +26,7 @@ the level and starting it again.
 
 ![Demo](https://raw.githubusercontent.com/lunarjournal/gsctool/main/images/demo.png)
 
-# Libraries
+# References
 
 * [cdl86](https://github.com/lunarjournal/cdl86) single c file detour library
 * [miniz](https://github.com/lunarjournal/miniz) zlib library
