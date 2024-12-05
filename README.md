@@ -10,7 +10,7 @@ This demo will give you a raygun on spawn in zombie mode (solo).
 
 * `GSC` dumps are written to `gsctool/cache`
 
-This project is intended to be a starting point for more advanced `GSC` modding.
+> This project is intended to be a starting point for more advanced `GSC` modding.
 
 # Instructions
 
