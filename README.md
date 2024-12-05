@@ -26,6 +26,12 @@ the level and starting it again.
 
 ![Demo](https://raw.githubusercontent.com/lunarjournal/gsctool/main/images/demo.png)
 
+Files:
+<br/>
+* `gsctool.h` - GSC loader definitions.<br/>
+* `gsctool.c` - core implementation.<br/>
+* `offsets.h` - T5 function offsets.
+
 # Dependencies
 
 * [cdl86](https://github.com/lunarjournal/cdl86) - `x86 detours library`
