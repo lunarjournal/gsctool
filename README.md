@@ -28,9 +28,9 @@ the level and starting it again.
 
 Files:
 <br/>
-* `gsctool.h` - GSC loader definitions.<br/>
-* `gsctool.c` - core implementation.<br/>
-* `offsets.h` - T5 function offsets.
+* `gsctool.h` - `GSC loader definitions.`
+* `gsctool.c` - `core implementation.`
+* `offsets.h` - `T5 function offsets.`
 
 # Dependencies
 
