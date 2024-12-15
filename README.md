@@ -16,7 +16,7 @@ This demo will give you a `raygun` on spawn in `SP` zombie mode.
 
 Run: `git submodule update --init --recursive` to clone submodules.
 
-Then build project using the provided `makefile` in Windows Subsystem for Linux
+Then build project using the provided `makefile` in `WSL` (`Windows`)
 and inject resulting `DLL`.
 
 The compiler used for this project is [`tcc`](https://github.com/lunarjournal/tcc) (`Tiny C Compiler`).
