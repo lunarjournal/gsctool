@@ -34,5 +34,5 @@ Files:
 
 # Dependencies
 
-* [`cdl86`](https://github.com/lunarjournal/cdl86) - `x86_64` detours library.
+* [`cdl86`](https://github.com/lunarjournal/cdl86) - `x86_64` `detours` library.
 * [`miniz`](https://github.com/lunarjournal/miniz) - `zlib` library.
