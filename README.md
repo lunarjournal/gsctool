@@ -6,7 +6,7 @@ Simple `GSC` loader and dumper for `Call Of Duty: Black Ops 1 (T5) (Microsoft Wi
 
 To load the demo `GSC` plugin copy `gsctool` to the games root directory.
 
-This demo will give you a raygun on spawn in zombie mode (solo). 
+This demo will give you a `raygun` on spawn in zombie mode (solo). 
 
 * `GSC` dumps are written to `gsctool/cache`
 
