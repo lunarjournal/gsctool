@@ -30,7 +30,7 @@ Files:
 <br/>
 * `gsctool.h` - `GSC` loader definitions.
 * `gsctool.c` - `core` implementation.
-* `offsets.h` - `T5` function offsets.
+* `offsets.h` - `T5` function `offsets`.
 
 # Dependencies
 
