@@ -26,6 +26,8 @@ the level and starting it again.
 
 ![Demo](https://raw.githubusercontent.com/lunarjournal/gsctool/main/images/demo.png)
 
+Demo Video: [https://www.youtube.com/watch?v=Gs9mHXyiGNg](https://www.youtube.com/watch?v=Gs9mHXyiGNg)
+
 Files:
 <br/>
 * `gsctool.h` - `GSC` loader definitions.
