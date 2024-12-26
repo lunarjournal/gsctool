@@ -1,6 +1,6 @@
 # gsctool
 
-Simple `GSC` loader and dumper for the `PC` version of `Call Of Duty: Black Ops 1 (T5)`.
+Simple `GSC` loader and dumper for the `PC` version of `COD: Black Ops 1 (T5)`.
 
 [`https://journal.lunar.sh/2023/gsctool.html`](https://journal.lunar.sh/2023/gsctool.html)
 
