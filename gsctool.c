@@ -2,6 +2,8 @@
  * @file gsctool.c
  * @brief Call of Duty: Black Ops GSC Loader - gsctool.c
  *
+ * Author: Dylan Müller
+ *
  * +---------------------------------------+
  * |   .-.         .-.         .-.         |
  * |  /   \       /   \       /   \        |
