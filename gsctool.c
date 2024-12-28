@@ -2,8 +2,6 @@
  * @file gsctool.c
  * @brief Call of Duty: Black Ops GSC Loader - gsctool.c
  *
- * Experimental Linux/Windows x86/x86_64 detours library.
- *
  * +---------------------------------------+
  * |   .-.         .-.         .-.         |
  * |  /   \       /   \       /   \        |
