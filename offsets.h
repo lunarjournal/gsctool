@@ -2,6 +2,8 @@
  * @file offsets.h
  * @brief Call of Duty: Black Ops GSC Loader - offsets.h
  *
+ * Author: Dylan Müller
+ *
  * +---------------------------------------+
  * |   .-.         .-.         .-.         |
  * |  /   \       /   \       /   \        |
