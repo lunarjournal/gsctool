@@ -21,7 +21,7 @@ and inject resulting `DLL`.
 
 The compiler used for this project is [`tcc`](https://github.com/lunarjournal/tcc) (`Tiny C Compiler`).
 
-> Note: You can modify and reload `GSC` scripts while `Black Ops` is running by quiting
+> Note: You can modify and hot-reload `GSC` scripts while `Black Ops` is running by quiting
 the level and starting it again.
 
 ![Demo](https://raw.githubusercontent.com/lunarjournal/gsctool/main/images/demo.png)
